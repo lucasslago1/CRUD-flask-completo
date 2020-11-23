@@ -22,12 +22,10 @@ Agora, crie uma virtual environment no diretório raiz do projeto para instalar 
 cd "diretorio raíz"
 python3.7 -m venv env
 ```
-Entre no diretório da virtual environment, execute-a e volte para o diretório raiz:
+Execute a venv:
 
 ```shell
-cd env
 source env/bin/activate
-cd ..
 ```
 Instale as dependências necessárias que estão no requirements.txt:
 
